@@ -1,0 +1,432 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>PRETEXT-X | Cybersecurity Awareness</title>
+
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+
+<header class="navbar">
+
+    <div class="logo">
+        <span class="logo-icon">◈</span>
+        PRETEXT<span>-X</span>
+    </div>
+
+    <nav>
+        <a href="#home">Home</a>
+        <a href="#learn">Learn</a>
+        <a href="#simulation">Simulation</a>
+        <a href="#quiz">Quiz</a>
+        <a href="#prevention">Prevention</a>
+    </nav>
+
+    <a href="#simulation" class="nav-button">
+        Start Simulation
+    </a>
+
+</header>
+
+
+<main>
+
+<!-- HERO -->
+
+<section id="home" class="hero">
+
+    <div class="hero-content">
+
+        <div class="badge">
+            🛡 CYBERSECURITY AWARENESS PLATFORM
+        </div>
+
+        <h1>
+            Think Before You
+            <span>Trust.</span>
+        </h1>
+
+        <p>
+            An interactive simulation platform designed to help users
+            identify and defend against pretexting and social engineering attacks.
+        </p>
+
+        <div class="hero-buttons">
+
+            <a href="#simulation" class="primary-btn">
+                Start Simulation →
+            </a>
+
+            <a href="#learn" class="secondary-btn">
+                Learn Pretexting
+            </a>
+
+        </div>
+
+        <div class="hero-stats">
+
+            <div>
+                <strong>04</strong>
+                <small>Attack Scenarios</small>
+            </div>
+
+            <div>
+                <strong>10</strong>
+                <small>Quiz Questions</small>
+            </div>
+
+            <div>
+                <strong>100%</strong>
+                <small>Safe Simulation</small>
+            </div>
+
+        </div>
+
+    </div>
+
+
+    <div class="radar-container">
+
+        <div class="radar">
+
+            <div class="radar-ring ring-1"></div>
+            <div class="radar-ring ring-2"></div>
+            <div class="radar-ring ring-3"></div>
+
+            <div class="radar-line"></div>
+
+            <div class="radar-point point-1"></div>
+            <div class="radar-point point-2"></div>
+            <div class="radar-point point-3"></div>
+
+            <div class="radar-center">
+                <span>!</span>
+            </div>
+
+        </div>
+
+        <div class="radar-label">
+            THREAT DETECTION ACTIVE
+        </div>
+
+    </div>
+
+</section>
+
+
+<!-- LEARN -->
+
+<section id="learn" class="section">
+
+    <div class="section-heading">
+
+        <span class="section-tag">01 / UNDERSTAND</span>
+
+        <h2>
+            What is <span>Pretexting?</span>
+        </h2>
+
+        <p>
+            Pretexting is a social engineering technique where an attacker
+            creates a believable story or identity to manipulate a target
+            into revealing information or performing an action.
+        </p>
+
+    </div>
+
+
+    <div class="info-grid">
+
+        <div class="info-card">
+
+            <div class="card-number">01</div>
+
+            <div class="card-icon">🎭</div>
+
+            <h3>False Identity</h3>
+
+            <p>
+                The attacker pretends to be someone trustworthy,
+                such as an employee, recruiter or support agent.
+            </p>
+
+        </div>
+
+
+        <div class="info-card">
+
+            <div class="card-number">02</div>
+
+            <div class="card-icon">⚡</div>
+
+            <h3>Creates Urgency</h3>
+
+            <p>
+                Attackers may create pressure so that victims
+                make decisions without verifying the request.
+            </p>
+
+        </div>
+
+
+        <div class="info-card">
+
+            <div class="card-number">03</div>
+
+            <div class="card-icon">🎯</div>
+
+            <h3>Manipulates Trust</h3>
+
+            <p>
+                The goal is to make the target believe the
+                attacker and follow their instructions.
+            </p>
+
+        </div>
+
+    </div>
+
+</section>
+
+
+<!-- ATTACK CHAIN -->
+
+<section class="section attack-section">
+
+    <div class="section-heading">
+
+        <span class="section-tag">02 / ATTACK CHAIN</span>
+
+        <h2>
+            How a <span>Pretexting Attack</span> Works
+        </h2>
+
+    </div>
+
+
+    <div class="attack-chain">
+
+        <div class="chain-item">
+            <span>01</span>
+            <h3>Research</h3>
+            <p>Attacker gathers publicly available information.</p>
+        </div>
+
+        <div class="chain-arrow">→</div>
+
+        <div class="chain-item">
+            <span>02</span>
+            <h3>Pretext</h3>
+            <p>A believable identity and story are created.</p>
+        </div>
+
+        <div class="chain-arrow">→</div>
+
+        <div class="chain-item">
+            <span>03</span>
+            <h3>Contact</h3>
+            <p>The attacker approaches the target.</p>
+        </div>
+
+        <div class="chain-arrow">→</div>
+
+        <div class="chain-item danger">
+            <span>04</span>
+            <h3>Manipulate</h3>
+            <p>The target is pressured into taking an action.</p>
+        </div>
+
+    </div>
+
+</section>
+
+
+<!-- SIMULATION -->
+
+<section id="simulation" class="section simulation-section">
+
+    <div class="section-heading">
+
+        <span class="section-tag">03 / SIMULATION</span>
+
+        <h2>
+            Test Your <span>Awareness</span>
+        </h2>
+
+        <p>
+            Choose a scenario and decide how you would respond.
+        </p>
+
+    </div>
+
+
+    <div id="scenario-grid" class="scenario-grid">
+
+        <div class="loading">
+            Loading scenarios...
+        </div>
+
+    </div>
+
+
+    <div id="simulation-panel" class="simulation-panel hidden">
+
+        <button id="close-simulation" class="close-btn">
+            ✕
+        </button>
+
+        <div id="simulation-content"></div>
+
+    </div>
+
+</section>
+
+
+<!-- QUIZ -->
+
+<section id="quiz" class="section quiz-section">
+
+    <div class="section-heading">
+
+        <span class="section-tag">04 / KNOWLEDGE TEST</span>
+
+        <h2>
+            Security <span>Quiz</span>
+        </h2>
+
+        <p>
+            Test your understanding of pretexting and social engineering.
+        </p>
+
+    </div>
+
+
+    <div class="quiz-box">
+
+        <div id="quiz-app">
+
+            <div class="quiz-intro">
+
+                <div class="quiz-icon">🛡️</div>
+
+                <h3>Are You Security Aware?</h3>
+
+                <p>
+                    Answer 10 questions and discover your cybersecurity
+                    awareness level.
+                </p>
+
+                <button id="start-quiz" class="primary-btn">
+                    Start Quiz →
+                </button>
+
+            </div>
+
+        </div>
+
+    </div>
+
+</section>
+
+
+<!-- PREVENTION -->
+
+<section id="prevention" class="section prevention-section">
+
+    <div class="section-heading">
+
+        <span class="section-tag">05 / DEFEND</span>
+
+        <h2>
+            Prevention <span>Center</span>
+        </h2>
+
+        <p>
+            Follow these principles to reduce the risk of pretexting attacks.
+        </p>
+
+    </div>
+
+
+    <div class="prevention-grid">
+
+        <div class="prevention-card">
+            <span>01</span>
+            <h3>Verify Identity</h3>
+            <p>
+                Confirm who is contacting you before sharing information.
+            </p>
+        </div>
+
+        <div class="prevention-card">
+            <span>02</span>
+            <h3>Don't Rush</h3>
+            <p>
+                Attackers often use urgency to prevent careful thinking.
+            </p>
+        </div>
+
+        <div class="prevention-card">
+            <span>03</span>
+            <h3>Protect Information</h3>
+            <p>
+                Never casually share passwords, OTPs or confidential data.
+            </p>
+        </div>
+
+        <div class="prevention-card">
+            <span>04</span>
+            <h3>Use Official Channels</h3>
+            <p>
+                Contact organizations using verified contact information.
+            </p>
+        </div>
+
+        <div class="prevention-card">
+            <span>05</span>
+            <h3>Think Before Clicking</h3>
+            <p>
+                Verify unexpected links and attachments before opening them.
+            </p>
+        </div>
+
+        <div class="prevention-card">
+            <span>06</span>
+            <h3>Report Suspicious Activity</h3>
+            <p>
+                Report suspicious requests to your organization's security team.
+            </p>
+        </div>
+
+    </div>
+
+</section>
+
+</main>
+
+
+<footer>
+
+    <div class="footer-logo">
+        ◈ PRETEXT-X
+    </div>
+
+    <p>
+        Interactive Pretexting Attack Simulation & Awareness Platform
+    </p>
+
+    <p class="copyright">
+        Educational cybersecurity project • Safe simulation only
+    </p>
+
+</footer>
+
+
+<script src="js/app.js"></script>
+
+</body>
+</html>
